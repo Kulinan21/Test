@@ -415,4 +415,8 @@ public class Tests_for_Calculator {
         //THEN
         assertEquals(expectedResult, actualResult);
     }
+    @AfterAll
+    static void initAfterAll() {
+        System.out.println("After all called");
+    }
 }
